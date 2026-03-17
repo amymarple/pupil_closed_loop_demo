@@ -43,6 +43,7 @@ This demo package intentionally does not include source code. A full public rele
 - `assets/eye_tracking_setup.png`: hardware concept for eye imaging on the animal
 - `assets/pupil_closed_SWR_system.png`: end-to-end closed-loop system diagram
 - `assets/realtime_pupil_tracking_gui.png`: real-time pupil-tracking GUI and logic overview
+- `assets/online_tracking_preview.gif`: animated preview of the online tracking GUI and closed-loop SWR disruption output
 - `assets/online_tracking.mp4`: demo video showing the online tracking GUI and closed-loop SWR disruption output
 
 ## Figures
@@ -61,9 +62,9 @@ This demo package intentionally does not include source code. A full public rele
 
 ## Demo Video
 
-The demo video below shows the online pupil-tracking GUI and the resulting closed-loop SWR disruption workflow:
+Click the animated preview below to open the full MP4 demo:
 
-[Open the online tracking demo video](assets/online_tracking.mp4)
+[![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
 
 ## Release Status
 
