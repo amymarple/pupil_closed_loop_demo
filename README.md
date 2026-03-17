@@ -1,34 +1,35 @@
 # Pupil Closed-Loop Control System Demo
 
-This folder is a minimal, source-code-free overview of the system for demo use.
+A demonstration preview of a real-time pupil-tracking platform for rodent sleep experiments, designed to gate downstream sharp-wave ripple (SWR) closed-loop stimulation based on ongoing pupil dynamics.
 
-The system performs real-time pupil tracking during rodent sleep experiments and uses pupil-state information to gate downstream sharp-wave-ripple (SWR) closed-loop stimulation.
+> This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be made available soon.
 
-This demo package intentionally does not include source code. A full public release of the software and supporting materials will be released soon.
+## Highlights
 
-## What This System Does
+- Real-time pupil tracking during rodent sleep experiments
+- Continuous extraction of pupil size and eye-opening measurements
+- State-dependent gating of downstream SWR closed-loop stimulation
+- Synchronization with electrophysiology recordings
+- End-to-end demonstration of hardware, software, and online control logic
 
-- Records the eye with a Raspberry Pi camera and IR illumination.
-- Streams the eye video to a PC for real-time pupil detection.
-- Measures pupil size and eye opening continuously.
-- Classifies behavioral state from pupil dynamics.
-- Sends a trigger to a downstream SWR closed-loop system when the pupil crosses the configured threshold.
-- Supports synchronized alignment with electrophysiology recordings.
+## System Overview
+
+The platform records the eye using a Raspberry Pi camera with infrared illumination, streams video to a PC for online pupil detection, and continuously estimates pupil-related features. These measurements are used to identify experiment-defined pupil states and open a downstream SWR detection window when threshold conditions are met. The electrophysiology system then evaluates ripple events and can trigger stimulation if ripple criteria are satisfied.
 
 ## Main Components
 
-1. Raspberry Pi camera system
-2. PC workstation running the pupil-tracking pipeline
-3. Intan electrophysiology recording hardware
-4. SWR closed-loop stimulation system
+- Raspberry Pi camera system
+- PC workstation running the real-time pupil-tracking pipeline
+- Intan electrophysiology recording hardware
+- SWR closed-loop stimulation system
 
-## How The Workflow Operates
+## Workflow
 
-1. The Raspberry Pi camera captures the eye and sends video to the PC.
-2. The PC detects the pupil in each frame and extracts measurements such as pupil area and eye height.
-3. The tracking pipeline determines whether the current pupil state matches the experiment condition of interest.
-4. If the threshold condition is met, the system sends a digital trigger that opens the SWR detection window.
-5. The downstream SWR system checks electrophysiology signals and can trigger stimulation when ripple criteria are satisfied.
+1. The Raspberry Pi camera captures the eye and streams video to the PC.
+2. The PC performs frame-by-frame pupil detection and extracts measurements such as pupil area and eye height.
+3. The tracking pipeline determines whether the current pupil state matches the configured experimental condition.
+4. When the threshold condition is met, the system sends a digital trigger to open the SWR detection window.
+5. The downstream SWR system evaluates electrophysiology signals and can trigger stimulation when ripple criteria are satisfied.
 
 ## Typical Outputs
 
@@ -36,37 +37,30 @@ This demo package intentionally does not include source code. A full public rele
 - Time-series pupil measurements
 - Sleep-state or behavioral-state labels
 - Trigger and stimulation event logs
-- Synchronized timing with electrophysiology recordings
+- Synchronized timing aligned to electrophysiology recordings
 
-## Included Demo Assets
+## Demo Assets
 
-- `assets/eye_tracking_setup.png`: hardware concept for eye imaging on the animal
-- `assets/pupil_closed_SWR_system.png`: end-to-end closed-loop system diagram
-- `assets/realtime_pupil_tracking_gui.png`: real-time pupil-tracking GUI and logic overview
-- `assets/online_tracking_preview.gif`: animated preview of the online tracking GUI and closed-loop SWR disruption output
-- `assets/online_tracking.mp4`: demo video showing the online tracking GUI and closed-loop SWR disruption output
+- `assets/eye_tracking_setup.png` — hardware setup for eye imaging
+- `assets/pupil_closed_SWR_system.png` — end-to-end closed-loop system diagram
+- `assets/realtime_pupil_tracking_gui.png` — real-time tracking GUI and control logic
+- `assets/online_tracking_preview.gif` — animated preview of online tracking and SWR disruption output
+- `assets/online_tracking.mp4` — full demo video
 
 ## Figures
 
-### Hardware Setup
+- **Hardware Setup**  
+  ![Hardware setup](assets/eye_tracking_setup.png)
 
-![Hardware setup](assets/eye_tracking_setup.png)
+- **Closed-Loop System Diagram**  
+  ![Closed-loop system](assets/pupil_closed_SWR_system.png)
 
-### Closed-Loop System Diagram
-
-![Closed-loop system](assets/pupil_closed_SWR_system.png)
-
-### Real-Time Tracking GUI
-
-![Real-time pupil tracking GUI](assets/realtime_pupil_tracking_gui.png)
+- **Real-Time Tracking GUI**  
+  ![Real-time pupil tracking GUI](assets/realtime_pupil_tracking_gui.png)
 
 ## Demo Video
 
 Click the animated preview below to open the full MP4 demo:
 
 [![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
-
-## Release Status
-
-This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be available soon at [ayalab1](https://github.com/ayalab1/).
 
