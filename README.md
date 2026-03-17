@@ -23,9 +23,9 @@ neural-signal=hippocampal sharp-wave ripples (SWRs), transient neural events lin
 
 Click the animated preview below to open the full MP4 demo:
 
-Online Pupil Tracking GUI --------- Brain Signal Monitor (Intan) --------Brain Signal Closed-Loop GUI (Spikes8)
+Online Pupil Tracking GUI ------------- Brain Signal Monitor (Intan) ---------------Brain Signal Closed-Loop GUI (Spikes8)
 
-          ↓                                 ↓                                              ↓
+          ↓<br>                                 ↓<br>                                              ↓<br>
 
 [![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
 
