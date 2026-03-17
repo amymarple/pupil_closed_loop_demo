@@ -2,7 +2,7 @@
 
 A demonstration preview of a real-time pupil-tracking platform for rodent sleep experiments, designed to gate downstream sharp-wave ripple (SWR) closed-loop stimulation based on ongoing pupil dynamics.
 
-> This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be made available soon.
+> This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be made available soon at [ayalab1](https://github.com/ayalab1/).
 
 ## Highlights
 
