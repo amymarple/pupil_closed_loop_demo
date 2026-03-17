@@ -68,4 +68,5 @@ Click the animated preview below to open the full MP4 demo:
 
 ## Release Status
 
-This repository preview is for demonstration only. The complete release with software, documentation, and additional materials will be released soon.
+This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be available soon at [ayalab1](https://github.com/ayalab1/).
+
