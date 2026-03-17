@@ -2,7 +2,10 @@
 
 [![Nature](https://img.shields.io/badge/Nature-637,_1161–1169_(2025)-blue)](https://doi.org/10.1038/s41586-024-08340-w)
 
-A demonstration preview of a real-time pupil-tracking platform for rodent sleep experiments, designed to gate downstream sharp-wave ripple (SWR) closed-loop stimulation based on ongoing pupil dynamics.
+A demonstration preview of a real-time pupil-tracking system for rodent sleep experiments and pupil-gated SWR closed-loop stimulation.
+
+**Related publication**  
+Chang, H., Tang, W., Wulf, A. M. *et al.* **Sleep microstructure organizes memory replay.** *Nature* **637**, 1161–1169 (2025). [https://doi.org/10.1038/s41586-024-08340-w](https://doi.org/10.1038/s41586-024-08340-w)
 
 > This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be made available soon at [ayalab1](https://github.com/ayalab1/).
 
@@ -13,6 +16,23 @@ A demonstration preview of a real-time pupil-tracking platform for rodent sleep 
 - State-dependent gating of downstream SWR closed-loop stimulation
 - Synchronization with electrophysiology recordings
 - End-to-end demonstration of hardware, software, and online control logic
+
+## Demo Video
+
+Click the animated preview below to open the full MP4 demo:
+
+[![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
+
+## Figures
+
+- **Hardware Setup**  
+  ![Hardware setup](assets/eye_tracking_setup.png)
+
+- **Closed-Loop Workflow**  
+  ![Closed-loop workflow](assets/pupil_closed_SWR_system.png)
+
+- **Real-Time Tracking GUI**  
+  ![Real-time pupil tracking GUI](assets/realtime_pupil_tracking_gui.png)
 
 ## System Overview
 
@@ -52,25 +72,7 @@ For methodological and conceptual details on the SWR closed-loop system, see:
 ## Demo Assets
 
 - `assets/eye_tracking_setup.png` — hardware setup for eye imaging
-- `assets/pupil_closed_SWR_system.png` —— end-to-end closed-loop workflow
-- `assets/realtime_pupil_tracking_gui.png` — real-time tracking GUI 
+- `assets/pupil_closed_SWR_system.png` — end-to-end closed-loop workflow
+- `assets/realtime_pupil_tracking_gui.png` — real-time pupil-tracking GUI
 - `assets/online_tracking_preview.gif` — animated preview of online tracking and SWR disruption output
 - `assets/online_tracking.mp4` — full demo video
-
-## Figures
-
-- **Hardware Setup**  
-  ![Hardware setup](assets/eye_tracking_setup.png)
-
-- **Closed-Loop Workflow**  
-  ![Closed-loop workflow](assets/pupil_closed_SWR_system.png)
-
-- **Real-Time Tracking GUI**  
-  ![Real-time pupil tracking GUI](assets/realtime_pupil_tracking_gui.png)
-
-## Demo Video
-
-Click the animated preview below to open the full MP4 demo:
-
-[![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
-
