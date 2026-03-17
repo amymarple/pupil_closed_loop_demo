@@ -1,5 +1,7 @@
 # Pupil Closed-Loop Control System Demo
 
+[![Nature](https://img.shields.io/badge/Nature-637,_1161–1169_(2025)-blue)](https://doi.org/10.1038/s41586-024-08340-w)
+
 A demonstration preview of a real-time pupil-tracking platform for rodent sleep experiments, designed to gate downstream sharp-wave ripple (SWR) closed-loop stimulation based on ongoing pupil dynamics.
 
 > This repository is provided for demonstration purposes only. The complete public release—including software, documentation, and additional materials—will be made available soon at [ayalab1](https://github.com/ayalab1/).
@@ -31,6 +33,14 @@ The platform records the eye using a Raspberry Pi camera with infrared illuminat
 4. When the threshold condition is met, the system sends a digital trigger to open the SWR detection window.
 5. The downstream SWR system evaluates electrophysiology signals and can trigger stimulation when ripple criteria are satisfied.
 
+## Related SWR Closed-Loop Studies
+
+For methodological and conceptual details on the SWR closed-loop system, see:
+
+- Oliva, A., Fernández-Ruiz, A., Leroy, F. & Siegelbaum, S. A. **Hippocampal CA2 sharp-wave ripples reactivate and promote social memory.** *Nature* **587**, 264–269 (2020). [https://doi.org/10.1038/s41586-020-2659-3](https://doi.org/10.1038/s41586-020-2659-3)
+
+- Fernández-Ruiz, A. *et al.* **Long-duration hippocampal sharp wave ripples improve memory.** *Science* **364**, 1082–1086 (2019). [https://doi.org/10.1126/science.aax0758](https://doi.org/10.1126/science.aax0758)
+
 ## Typical Outputs
 
 - Annotated tracking videos
@@ -42,8 +52,8 @@ The platform records the eye using a Raspberry Pi camera with infrared illuminat
 ## Demo Assets
 
 - `assets/eye_tracking_setup.png` — hardware setup for eye imaging
-- `assets/pupil_closed_SWR_system.png` — end-to-end closed-loop system diagram
-- `assets/realtime_pupil_tracking_gui.png` — real-time tracking GUI and control logic
+- `assets/pupil_closed_SWR_system.png` —— end-to-end closed-loop workflow
+- `assets/realtime_pupil_tracking_gui.png` — real-time tracking GUI 
 - `assets/online_tracking_preview.gif` — animated preview of online tracking and SWR disruption output
 - `assets/online_tracking.mp4` — full demo video
 
@@ -52,8 +62,8 @@ The platform records the eye using a Raspberry Pi camera with infrared illuminat
 - **Hardware Setup**  
   ![Hardware setup](assets/eye_tracking_setup.png)
 
-- **Closed-Loop System Diagram**  
-  ![Closed-loop system](assets/pupil_closed_SWR_system.png)
+- **Closed-Loop Workflow**  
+  ![Closed-loop workflow](assets/pupil_closed_SWR_system.png)
 
 - **Real-Time Tracking GUI**  
   ![Real-time pupil tracking GUI](assets/realtime_pupil_tracking_gui.png)
