@@ -2,7 +2,8 @@
 
 [![Nature](https://img.shields.io/badge/Nature-637,_1161–1169_(2025)-blue)](https://doi.org/10.1038/s41586-024-08340-w)
 
-A demonstration preview of a real-time pupil-tracking system for rodent sleep experiments and pupil-gated, neural-signal-triggered closed-loop stimulation..
+A demonstration preview of a real-time pupil-tracking system for rodent sleep experiments and pupil-gated, neural-signal-triggered closed-loop stimulation.
+neural-signal=hippocampal sharp-wave ripples (SWRs), transient neural events linked to memory replay during sleep
 
 **Related publication**  
 Chang, H., Tang, W., Wulf, A. M. *et al.* **Sleep microstructure organizes memory replay.** *Nature* **637**, 1161–1169 (2025). [https://doi.org/10.1038/s41586-024-08340-w](https://doi.org/10.1038/s41586-024-08340-w)
@@ -20,6 +21,7 @@ Chang, H., Tang, W., Wulf, A. M. *et al.* **Sleep microstructure organizes memor
 ## Demo Video
 
 Click the animated preview below to open the full MP4 demo:
+Pupil-online-tracking Gui -----------------------Brain signal Monitor (Intan)----------------------------------------Brain-signal-Closed-loop-Gui (Spikes8)
 
 [![Online tracking demo preview](assets/online_tracking_preview.gif)](assets/online_tracking.mp4)
 
