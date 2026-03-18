@@ -21,27 +21,23 @@ neural-signal=hippocampal sharp-wave ripples (SWRs), transient neural events lin
 
 ## Demo Video
 
-Click the animated preview below to open the full MP4 demo:
+<p align="center">
+  <b>Online Pupil Tracking GUI</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <b>Brain Signal Monitor (Intan)</b> &emsp;&emsp;&emsp;
+  <b>Brain Signal Closed-Loop GUI (Spikes8)</b>
+</p>
 
-<table align="center">
-  <tr>
-    <td align="center"><b>Online Pupil Tracking GUI</b></td>
-    <td align="center"><b>Brain Signal Monitor (Intan)</b></td>
-    <td align="center"><b>Brain Signal Closed-Loop GUI (Spikes8)</b></td>
-  </tr>
-  <tr>
-    <td align="center">↓</td>
-    <td align="center">↓</td>
-    <td align="center">↓</td>
-  </tr>
-  <tr>
-    <td colspan="3" align="center">
-      <a href="assets/online_tracking.mp4">
-        <img src="assets/online_tracking_preview.gif" alt="Online tracking demo preview" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  ↓ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  ↓ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  ↓
+</p>
+
+<p align="center">
+  <a href="assets/online_tracking.mp4">
+    <img src="assets/online_tracking_preview.gif" alt="Online tracking demo preview" width="100%">
+  </a>
+</p>
 
 ## Figures
 
