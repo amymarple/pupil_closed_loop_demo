@@ -91,7 +91,7 @@ For methodological and conceptual details on the SWR closed-loop system, see:
   </a>
 </p>
 
-## Contact
+## Project Information
 
 This project was developed in the AYA Lab at Cornell University.
 
