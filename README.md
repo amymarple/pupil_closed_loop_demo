@@ -74,7 +74,7 @@ For methodological and conceptual details on the SWR closed-loop system, see:
 ## Demo Video
 
 <p align="center">
-  <b>Online Pupil Tracking GUI</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <b>Online Pupil Tracking GUI</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <b>Brain Signal Monitor (Intan)</b> &emsp;&emsp;&emsp;
   <b>Brain Signal Closed-Loop GUI (Spikes8)</b>
 </p>
