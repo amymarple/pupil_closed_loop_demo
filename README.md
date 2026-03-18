@@ -72,3 +72,23 @@ For methodological and conceptual details on the SWR closed-loop system, see:
 - `assets/realtime_pupil_tracking_gui.png` — real-time pupil-tracking GUI
 - `assets/online_tracking_preview.gif` — animated preview of online tracking and SWR disruption output
 - `assets/online_tracking.mp4` — full demo video&emsp;&emsp;
+
+## Demo Video
+
+<p align="center">
+  <b>Online Pupil Tracking GUI</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <b>Brain Signal Monitor (Intan)</b> &emsp;&emsp;&emsp;
+  <b>Brain Signal Closed-Loop GUI (Spikes8)</b>
+</p>
+
+<p align="center">
+  ↓ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  ↓ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  ↓
+</p>
+
+<p align="center">
+  <a href="assets/online_tracking.mp4">
+    <img src="assets/online_tracking_preview.gif" alt="Online tracking demo preview" width="100%">
+  </a>
+</p>
