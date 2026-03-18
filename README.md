@@ -90,3 +90,9 @@ For methodological and conceptual details on the SWR closed-loop system, see:
     <img src="assets/online_tracking_preview.gif" alt="Online tracking demo preview" width="100%">
   </a>
 </p>
+## Credits
+
+This project was developed in the AYA Lab at Cornell University.
+
+**Lead design and implementation:** Hongyu Chang  
+**Supervisors:** Azahara Oliva, PhD; Antonio Fernandez-Ruiz, PhD
