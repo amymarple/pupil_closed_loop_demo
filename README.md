@@ -2,9 +2,7 @@
 
 [![Nature](https://img.shields.io/badge/Nature-637,_1161–1169_(2025)-blue)](https://doi.org/10.1038/s41586-024-08340-w)
 
-A demonstration preview of a real-time pupil-tracking system for rodent sleep experiments and pupil-gated, neural-signal-triggered closed-loop stimulation.
-
-neural-signal=hippocampal sharp-wave ripples (SWRs), transient neural events linked to memory replay during sleep
+A demonstration preview of a real-time pupil-tracking system for rodent sleep experiments, featuring pupil-gated, closed-loop stimulation triggered by hippocampal sharp-wave ripples (SWRs)—transient neural events linked to memory replay.
 
 **Related publication**  
 **Chang, H**., Tang, W., Wulf, A. M. *et al.* **Sleep microstructure organizes memory replay.** *Nature* **637**, 1161–1169 (2025). [https://doi.org/10.1038/s41586-024-08340-w](https://doi.org/10.1038/s41586-024-08340-w)
@@ -13,7 +11,7 @@ neural-signal=hippocampal sharp-wave ripples (SWRs), transient neural events lin
 
 ## Highlights
 
-- Real-time pupil tracking during rodent sleep experiments
+- Real-time pupil tracking at ~15-24 FPS during rodent sleep experiments
 - Continuous extraction of pupil size and eye-opening measurements
 - State-dependent gating of downstream SWR closed-loop stimulation
 - Synchronization with electrophysiology recordings
